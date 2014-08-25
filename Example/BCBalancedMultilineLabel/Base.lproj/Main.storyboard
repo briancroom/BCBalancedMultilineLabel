@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="BCViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a long label that goes over two lines" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="250" translatesAutoresizingMaskIntoConstraints="NO" id="zwL-Tu-RDA" customClass="BCBalancedMultilineLabel">
+                                <rect key="frame" x="35" y="118" width="250" height="36"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="yKq-z1-RHL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Normal Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iUD-7u-nJq">
+                                <rect key="frame" x="120" y="25" width="81" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a long label that goes over two lines" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="250" translatesAutoresizingMaskIntoConstraints="NO" id="gLo-Vt-fZg">
+                                <rect key="frame" x="35" y="46" width="250" height="36"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="vPB-5S-bu5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Balanced Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ty5-Mj-Zmh">
+                                <rect key="frame" x="114" y="97" width="93" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="This is a long label that goes over two lines" translatesAutoresizingMaskIntoConstraints="NO" id="rS3-7j-fyq">
+                                <rect key="frame" x="35" y="170" width="250" height="80"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="EzB-hY-3nf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="Ymp-JW-ZaD"/>
+                                </connections>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="Ty5-Mj-Zmh" secondAttribute="centerX" constant="-0.5" id="2ZU-sP-yVc"/>
+                            <constraint firstItem="zwL-Tu-RDA" firstAttribute="leading" secondItem="rS3-7j-fyq" secondAttribute="leading" id="5Br-rK-crq"/>
+                            <constraint firstItem="iUD-7u-nJq" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="5" id="CGM-lp-9gA"/>
+                            <constraint firstAttribute="centerX" secondItem="zwL-Tu-RDA" secondAttribute="centerX" id="FLk-Ic-qjf"/>
+                            <constraint firstItem="gLo-Vt-fZg" firstAttribute="top" secondItem="iUD-7u-nJq" secondAttribute="bottom" constant="5" id="I7t-aX-x6R"/>
+                            <constraint firstAttribute="centerX" secondItem="iUD-7u-nJq" secondAttribute="centerX" id="MxP-fW-Dxb"/>
+                            <constraint firstItem="Ty5-Mj-Zmh" firstAttribute="top" secondItem="gLo-Vt-fZg" secondAttribute="bottom" constant="15" id="NQq-An-sOh"/>
+                            <constraint firstItem="zwL-Tu-RDA" firstAttribute="top" secondItem="Ty5-Mj-Zmh" secondAttribute="bottom" constant="5" id="SMK-by-Nyy"/>
+                            <constraint firstItem="zwL-Tu-RDA" firstAttribute="trailing" secondItem="rS3-7j-fyq" secondAttribute="trailing" id="UCc-L7-bex"/>
+                            <constraint firstAttribute="centerX" secondItem="gLo-Vt-fZg" secondAttribute="centerX" id="uz0-cv-Wf3"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="rS3-7j-fyq" secondAttribute="bottom" constant="230" id="xwx-qY-Rdq"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="eP7-35-9E8" appends="YES" id="FkG-O9-Aa1"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="balancedLabel" destination="zwL-Tu-RDA" id="iLF-Y6-Rc4"/>
+                        <outlet property="normalLabel" destination="gLo-Vt-fZg" id="zAl-lr-y2l"/>
+                        <outlet property="textView" destination="rS3-7j-fyq" id="hA4-Ko-7fC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="eP7-35-9E8">
+                    <connections>
+                        <action selector="backgroundTapped" destination="vXZ-lx-hvc" id="F8b-Xe-i3K"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
