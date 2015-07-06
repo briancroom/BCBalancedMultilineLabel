@@ -10,9 +10,6 @@
 		15F806E989214818AA262243 /* libPods-BCBalancedMultilineLabel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FAFA54DA1844C8A8ACC723 /* libPods-BCBalancedMultilineLabel.a */; };
 		34A4363319ABF48100DBB956 /* BCBalancedMultilineLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4363219ABF48100DBB956 /* BCBalancedMultilineLabelTests.m */; };
 		34A4363619ABF4DA00DBB956 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A4363419ABF4DA00DBB956 /* Main.storyboard */; };
-		34A4363E19ABF7DA00DBB956 /* testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithCenterAlignment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34A4363B19ABF7DA00DBB956 /* testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithCenterAlignment@2x.png */; };
-		34A4363F19ABF7DA00DBB956 /* testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithLeftAlignment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34A4363C19ABF7DA00DBB956 /* testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithLeftAlignment@2x.png */; };
-		34A4364019ABF7DA00DBB956 /* testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithRightAlignment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34A4363D19ABF7DA00DBB956 /* testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithRightAlignment@2x.png */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -40,11 +37,13 @@
 
 /* Begin PBXFileReference section */
 		07C3E148BBCD4280BE6CFCB6 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0997B3EE6B1EDD85C00C6AB0 /* Pods-BCBalancedMultilineLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCBalancedMultilineLabel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BCBalancedMultilineLabel/Pods-BCBalancedMultilineLabel.debug.xcconfig"; sourceTree = "<group>"; };
 		34A4363219ABF48100DBB956 /* BCBalancedMultilineLabelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCBalancedMultilineLabelTests.m; sourceTree = "<group>"; };
 		34A4363519ABF4DA00DBB956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34A4363B19ABF7DA00DBB956 /* testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithCenterAlignment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithCenterAlignment@2x.png"; sourceTree = "<group>"; };
 		34A4363C19ABF7DA00DBB956 /* testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithLeftAlignment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithLeftAlignment@2x.png"; sourceTree = "<group>"; };
 		34A4363D19ABF7DA00DBB956 /* testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithRightAlignment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithRightAlignment@2x.png"; sourceTree = "<group>"; };
+		4619ACD17F07550D6CE1785E /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BCBalancedMultilineLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BCBalancedMultilineLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,11 +62,11 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		676DAEB1EB344812B7241502 /* Pods-BCBalancedMultilineLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCBalancedMultilineLabel.xcconfig"; path = "Pods/Pods-BCBalancedMultilineLabel.xcconfig"; sourceTree = "<group>"; };
 		789626E553354FDC88229CCF /* BCBalancedMultilineLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BCBalancedMultilineLabel.podspec; path = ../BCBalancedMultilineLabel.podspec; sourceTree = "<group>"; };
-		B5D277AFA3974464A3D2D9FE /* Pods-Tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.xcconfig"; path = "Pods/Pods-Tests.xcconfig"; sourceTree = "<group>"; };
+		A2F0C01628751F5C8FB44B13 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D4250399AB58405CB6FB9CEF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E0FAFA54DA1844C8A8ACC723 /* libPods-BCBalancedMultilineLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BCBalancedMultilineLabel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73B97D5A9B6E5D4CCB59766 /* Pods-BCBalancedMultilineLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCBalancedMultilineLabel.release.xcconfig"; path = "Pods/Target Support Files/Pods-BCBalancedMultilineLabel/Pods-BCBalancedMultilineLabel.release.xcconfig"; sourceTree = "<group>"; };
 		FAFFF8FD48B1430DA8F9E4F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +96,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D5E633EF5B91E639679E61B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0997B3EE6B1EDD85C00C6AB0 /* Pods-BCBalancedMultilineLabel.debug.xcconfig */,
+				E73B97D5A9B6E5D4CCB59766 /* Pods-BCBalancedMultilineLabel.release.xcconfig */,
+				4619ACD17F07550D6CE1785E /* Pods-Tests.debug.xcconfig */,
+				A2F0C01628751F5C8FB44B13 /* Pods-Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		34A4363A19ABF7BE00DBB956 /* Reference Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,8 +126,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				676DAEB1EB344812B7241502 /* Pods-BCBalancedMultilineLabel.xcconfig */,
-				B5D277AFA3974464A3D2D9FE /* Pods-Tests.xcconfig */,
+				0D5E633EF5B91E639679E61B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -289,9 +298,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34A4363F19ABF7DA00DBB956 /* testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithLeftAlignment@2x.png in Resources */,
-				34A4363E19ABF7DA00DBB956 /* testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithCenterAlignment@2x.png in Resources */,
-				34A4364019ABF7DA00DBB956 /* testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithRightAlignment@2x.png in Resources */,
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,7 +317,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-BCBalancedMultilineLabel-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BCBalancedMultilineLabel/Pods-BCBalancedMultilineLabel-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5CCDCC19D4134AFEA8F4F926 /* Check Pods Manifest.lock */ = {
@@ -356,7 +362,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -450,7 +456,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -483,7 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -492,7 +498,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 676DAEB1EB344812B7241502 /* Pods-BCBalancedMultilineLabel.xcconfig */;
+			baseConfigurationReference = 0997B3EE6B1EDD85C00C6AB0 /* Pods-BCBalancedMultilineLabel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -506,7 +512,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 676DAEB1EB344812B7241502 /* Pods-BCBalancedMultilineLabel.xcconfig */;
+			baseConfigurationReference = E73B97D5A9B6E5D4CCB59766 /* Pods-BCBalancedMultilineLabel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -520,7 +526,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5D277AFA3974464A3D2D9FE /* Pods-Tests.xcconfig */;
+			baseConfigurationReference = 4619ACD17F07550D6CE1785E /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BCBalancedMultilineLabel.app/BCBalancedMultilineLabel";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -530,11 +536,6 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-					"FB_REFERENCE_IMAGE_DIR=\\\"$(SRCROOT)/Tests/ReferenceImages\\\"",
-				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -544,7 +545,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5D277AFA3974464A3D2D9FE /* Pods-Tests.xcconfig */;
+			baseConfigurationReference = A2F0C01628751F5C8FB44B13 /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BCBalancedMultilineLabel.app/BCBalancedMultilineLabel";
 				FRAMEWORK_SEARCH_PATHS = (

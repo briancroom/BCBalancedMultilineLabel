@@ -5,5 +5,5 @@ end
 target 'Tests', :exclusive => true do
   pod "BCBalancedMultilineLabel", :path => "../"
 
-  pod 'FBSnapshotTestCase'
+  pod 'FBSnapshotTestCase/Core'
 end

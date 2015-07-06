@@ -18,17 +18,17 @@ static const CGFloat kLabelWidth = 300;
 
 - (void)testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithLeftAlignment {
     self.label.textAlignment = NSTextAlignmentLeft;
-    FBSnapshotVerifyView(self.label, nil);
+    FBSnapshotVerifyViewWithOptions(self.label, nil, @[@""], .001);
 }
 
 - (void)testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithCenterAlignment {
     self.label.textAlignment = NSTextAlignmentCenter;
-    FBSnapshotVerifyView(self.label, nil);
+    FBSnapshotVerifyViewWithOptions(self.label, nil, @[@""], .001);
 }
 
 - (void)testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithRightAlignment {
     self.label.textAlignment = NSTextAlignmentRight;
-    FBSnapshotVerifyView(self.label, nil);
+    FBSnapshotVerifyViewWithOptions(self.label, nil, @[@""], .001);
 }
 
 - (void)testSetsUnlimitedNumberOfLinesAsDefault {
