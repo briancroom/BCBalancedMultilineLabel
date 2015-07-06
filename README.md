@@ -1,6 +1,6 @@
 # BCBalancedMultilineLabel
 
-[![CI Status](http://img.shields.io/travis/pivotal-brian-croom/BCBalancedMultilineLabel.svg?style=flat)](https://travis-ci.org/pivotal-brian-croom/BCBalancedMultilineLabel)
+[![CI Status](http://img.shields.io/travis/briancroom/BCBalancedMultilineLabel.svg?style=flat)](https://travis-ci.org/briancroom/BCBalancedMultilineLabel)
 [![Version](https://img.shields.io/cocoapods/v/BCBalancedMultilineLabel.svg?style=flat)](http://cocoadocs.org/docsets/BCBalancedMultilineLabel)
 [![License](https://img.shields.io/cocoapods/l/BCBalancedMultilineLabel.svg?style=flat)](http://cocoadocs.org/docsets/BCBalancedMultilineLabel)
 [![Platform](https://img.shields.io/cocoapods/p/BCBalancedMultilineLabel.svg?style=flat)](http://cocoadocs.org/docsets/BCBalancedMultilineLabel)

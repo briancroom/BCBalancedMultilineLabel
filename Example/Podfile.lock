@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  BCBalancedMultilineLabel: e00b465632372699b4cf0772e9a6b82738cc5994
+  BCBalancedMultilineLabel: 92a092b34aea0b05f6e3d02f80472cdc14d12993
   FBSnapshotTestCase: fd500d5b282c4ec60215d26d0b58b0cf271dd0d6
 
 COCOAPODS: 0.37.2
