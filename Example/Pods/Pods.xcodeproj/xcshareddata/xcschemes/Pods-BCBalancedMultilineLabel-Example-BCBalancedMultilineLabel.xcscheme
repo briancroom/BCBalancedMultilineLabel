@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2A3ED7CA54B35EF6DAB6ED6E"
-               BuildableName = "libPods-BCBalancedMultilineLabel-BCBalancedMultilineLabel.a"
-               BlueprintName = "Pods-BCBalancedMultilineLabel-BCBalancedMultilineLabel"
+               BlueprintIdentifier = "25802F5BF2DEE9E2DAE890FA"
+               BuildableName = "libPods-BCBalancedMultilineLabel-Example-BCBalancedMultilineLabel.a"
+               BlueprintName = "Pods-BCBalancedMultilineLabel-Example-BCBalancedMultilineLabel"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

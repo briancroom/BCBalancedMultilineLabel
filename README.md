@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/BCBalancedMultilineLabel.svg?style=flat)](http://cocoadocs.org/docsets/BCBalancedMultilineLabel)
 [![Platform](https://img.shields.io/cocoapods/p/BCBalancedMultilineLabel.svg?style=flat)](http://cocoadocs.org/docsets/BCBalancedMultilineLabel)
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 Have you ever placed a label in your view controller, gave it some nice copy to display, 
 ran your app and then cringed because everything fit on one line except for one or two
 lone words?
