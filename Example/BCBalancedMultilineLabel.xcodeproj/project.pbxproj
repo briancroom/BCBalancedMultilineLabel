@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15F806E989214818AA262243 /* libPods-BCBalancedMultilineLabel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FAFA54DA1844C8A8ACC723 /* libPods-BCBalancedMultilineLabel.a */; };
 		1BE3FC1F9E53A65CD906DCEC /* libPods-BCBalancedMultilineLabel-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 195AF9302582901412A38B63 /* libPods-BCBalancedMultilineLabel-Example.a */; };
 		3442A6411B4A7038005958C5 /* BCBalancedMultilineLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3442A63F1B4A7037005958C5 /* BCBalancedMultilineLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3442A6421B4A7038005958C5 /* BCBalancedMultilineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3442A6401B4A7038005958C5 /* BCBalancedMultilineLabel.m */; };
@@ -95,7 +94,6 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				15F806E989214818AA262243 /* libPods-BCBalancedMultilineLabel.a in Frameworks */,
 				1BE3FC1F9E53A65CD906DCEC /* libPods-BCBalancedMultilineLabel-Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

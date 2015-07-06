@@ -9,7 +9,7 @@
 // BCBalancedMultilineLabel
 #define COCOAPODS_POD_AVAILABLE_BCBalancedMultilineLabel
 #define COCOAPODS_VERSION_MAJOR_BCBalancedMultilineLabel 0
-#define COCOAPODS_VERSION_MINOR_BCBalancedMultilineLabel 1
+#define COCOAPODS_VERSION_MINOR_BCBalancedMultilineLabel 2
 #define COCOAPODS_VERSION_PATCH_BCBalancedMultilineLabel 0
 
 // FBSnapshotTestCase/Core

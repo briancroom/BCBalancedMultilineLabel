@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "BCBalancedMultilineLabel"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "A label which draws itself such that each of its lines have as close to the same length as possible."
   s.description      = <<-DESC
                        Have you ever placed a label in your view controller, gave it some nice copy to display, 
