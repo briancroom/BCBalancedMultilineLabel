@@ -12,6 +12,7 @@ static const CGFloat kLabelWidth = 300;
 - (void)setUp {
     [super setUp];
     self.label = [[BCBalancedMultilineLabel alloc] initWithFrame:CGRectMake(0, 0, kLabelWidth, 50)];
+    self.label.font = [UIFont fontWithName:@"HelveticaNeue" size:17.0f];
     self.label.backgroundColor = [UIColor whiteColor];
     self.label.text = @"This is a string which wraps onto two lines";
 }
