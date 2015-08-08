@@ -33,10 +33,17 @@ It also simplifies handling a couple of other `UILabel` properties:
 ## Usage
 
 Using BCBalancedMultilineLabel in your project couldn't be easier! Just change the class of your label
-in Interface Builder or in your code to be BCBalancedMultilineLabel instead of UILabel, and you're done!
+in Interface Builder or in your Objective-C or Swift code to be BCBalancedMultilineLabel instead of UILabel, and you're done!
 
 ```objective-c
 UILabel *label = [[BCBalancedMultilineLabel alloc] initWithFrame:CGRectMake(0, 0, 300, 50)];
+label.text = @"My cool app";
+[self.view addSubview:label];
+```
+```swift
+let label = BCBalancedMultilineLabel(frame: CGRect(x: 0, y: 0, width: 300, height: 50))
+label.text = "My cool app"
+view.addSubview(label)
 ```
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
