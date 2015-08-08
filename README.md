@@ -22,7 +22,8 @@ BCBalancedMultilineLabel will take care of adjusting the line breaks such that e
 line is as close to the same length as possible, making your text look beautiful. It supports
 left, right, and center alignments equally well.
 
-![Regular Label](Screenshots/Balanced-Label.png?raw=true)
+![Balanced Label](Screenshots/Balanced-Label.png?raw=true)
+![Balanced Label Right Aligned](Screenshots/Balanced-Label-Right.png?raw=true)
 
 It also simplifies handling a couple of other `UILabel` properties:
 
@@ -40,7 +41,7 @@ UILabel *label = [[BCBalancedMultilineLabel alloc] initWithFrame:CGRectMake(0, 0
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-![Example App](Screenshots/Example-App.png?raw=true)
+![Example App](Screenshots/Example-App.gif?raw=true)
 
 ## Installation
 
