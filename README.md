@@ -24,6 +24,11 @@ left, right, and center alignments equally well.
 
 ![Regular Label](Screenshots/Balanced-Label.png?raw=true)
 
+It also simplifies handling a couple of other `UILabel` properties:
+
+* `numberOfLines` is defaulted to `0`, as this label is intended to be used for content that wraps to multiple lines.
+* `preferredMaxLayoutWidth` is automatically kept in sync with the label's frame width, which helps ensure that the label sizes itself as intended when used with autolayout.
+
 ## Usage
 
 Using BCBalancedMultilineLabel in your project couldn't be easier! Just change the class of your label
@@ -43,6 +48,10 @@ BCBalancedMultilineLabel is available through [CocoaPods](http://cocoapods.org).
 it, simply add the following line to your Podfile:
 
     pod "BCBalancedMultilineLabel"
+
+It can also be installed as a framework using [Carthage](https://github.com/Carthage/Carthage) if you are targeting iOS 8.0 or above. To get it this way, add the following line to your Cartfile:
+
+    github "briancroom/BCBalancedMultilineLabel"
 
 ## Author
 
