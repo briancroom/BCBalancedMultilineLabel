@@ -29,6 +29,10 @@ left, right, and center alignments equally well.
 Using BCBalancedMultilineLabel in your project couldn't be easier! Just change the class of your label
 in Interface Builder or in your code to be BCBalancedMultilineLabel instead of UILabel, and you're done!
 
+```objective-c
+UILabel *label = [[BCBalancedMultilineLabel alloc] initWithFrame:CGRectMake(0, 0, 300, 50)];
+```
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ![Example App](Screenshots/Example-App.png?raw=true)
