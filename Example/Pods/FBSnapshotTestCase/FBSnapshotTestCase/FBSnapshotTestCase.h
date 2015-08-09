@@ -1,5 +1,5 @@
 /*
- *  Copyright (c) 2013, Facebook, Inc.
+ *  Copyright (c) 2015, Facebook, Inc.
  *  All rights reserved.
  *
  *  This source code is licensed under the BSD-style license found in the
@@ -93,6 +93,20 @@ FBSnapshotVerifyLayerWithOptions(layer__, identifier__, FBSnapshotTestCaseDefaul
  When YES, the test macros will save reference images, rather than performing an actual test.
  */
 @property (readwrite, nonatomic, assign) BOOL recordMode;
+
+/**
+ When YES, renders a snapshot of the complete view hierarchy as visible onscreen.
+ There are several things that do not work if renderInContext: is used.
+ - UIVisualEffect #70
+ - UIAppearance #91
+ - Size Classes #92
+ 
+ @attention If the view does't belong to a UIWindow, it will create one and add the view as a subview.
+ */
+@property (readwrite, nonatomic, assign) BOOL usesDrawViewHierarchyInRect;
+
+- (void)setUp NS_REQUIRES_SUPER;
+- (void)tearDown NS_REQUIRES_SUPER;
 
 /**
  Performs the comparison or records a snapshot of the layer if recordMode is YES.
