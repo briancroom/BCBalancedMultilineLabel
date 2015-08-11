@@ -3,7 +3,7 @@
 
 static const CGFloat kLabelWidth = 300;
 
-@interface BCBalancedMultilineLabelTests : FBSnapshotTestCase
+@interface BCBalancedMultilineLabelTests : XCTestCase
 @property (nonatomic, strong) BCBalancedMultilineLabel *label;
 @end
 
@@ -13,37 +13,8 @@ static const CGFloat kLabelWidth = 300;
     [super setUp];
     self.label = [[BCBalancedMultilineLabel alloc] initWithFrame:CGRectMake(0, 0, kLabelWidth, 50)];
     self.label.font = [UIFont fontWithName:@"HelveticaNeue" size:17.0f];
-    self.label.backgroundColor = [UIColor whiteColor];
     self.label.text = @"This is a string which wraps onto two lines";
-
-    [self.label setNeedsLayout];
     [self.label layoutIfNeeded];
-}
-
-- (void)testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithLeftAlignment {
-    self.label.textAlignment = NSTextAlignmentLeft;
-    FBSnapshotVerifyViewWithOptions(self.label, nil, @[@""], .001);
-}
-
-- (void)testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithCenterAlignment {
-    self.label.textAlignment = NSTextAlignmentCenter;
-    FBSnapshotVerifyViewWithOptions(self.label, nil, @[@""], .001);
-}
-
-- (void)testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithRightAlignment {
-    self.label.textAlignment = NSTextAlignmentRight;
-    FBSnapshotVerifyViewWithOptions(self.label, nil, @[@""], .001);
-}
-
-- (void)testDoesNotModifySingleLineRendering {
-    self.label.text = @"One line of text";
-    FBSnapshotVerifyViewWithOptions(self.label, nil, @[@""], .001);
-}
-
-- (void)testAppropriatelyHandlesExplicitNewlines {
-    self.label.text = @"Line One\nHere is a second line that doesn't quite fit.\nLine Three";
-    [self.label sizeToFit];
-    FBSnapshotVerifyViewWithOptions(self.label, nil, @[@""], .001);
 }
 
 - (void)testSetsUnlimitedNumberOfLinesAsDefault {

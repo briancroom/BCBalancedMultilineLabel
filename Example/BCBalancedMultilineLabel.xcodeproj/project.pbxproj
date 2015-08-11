@@ -12,6 +12,7 @@
 		3442A6421B4A7038005958C5 /* BCBalancedMultilineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3442A6401B4A7038005958C5 /* BCBalancedMultilineLabel.m */; };
 		34A4363319ABF48100DBB956 /* BCBalancedMultilineLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4363219ABF48100DBB956 /* BCBalancedMultilineLabelTests.m */; };
 		34A4363619ABF4DA00DBB956 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A4363419ABF4DA00DBB956 /* Main.storyboard */; };
+		34C4C6B21B799C6D0051FD0A /* BCBalancedMultilineLabelSnapshotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C4C6B11B799C6D0051FD0A /* BCBalancedMultilineLabelSnapshotTests.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -51,6 +52,7 @@
 		34A4363B19ABF7DA00DBB956 /* testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithCenterAlignment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithCenterAlignment@2x.png"; sourceTree = "<group>"; };
 		34A4363C19ABF7DA00DBB956 /* testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithLeftAlignment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithLeftAlignment@2x.png"; sourceTree = "<group>"; };
 		34A4363D19ABF7DA00DBB956 /* testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithRightAlignment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithRightAlignment@2x.png"; sourceTree = "<group>"; };
+		34C4C6B11B799C6D0051FD0A /* BCBalancedMultilineLabelSnapshotTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCBalancedMultilineLabelSnapshotTests.m; sourceTree = "<group>"; };
 		4182A5BA613404EC0D60B1AD /* Pods-BCBalancedMultilineLabel-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCBalancedMultilineLabel-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BCBalancedMultilineLabel-Example/Pods-BCBalancedMultilineLabel-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4619ACD17F07550D6CE1785E /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BCBalancedMultilineLabel-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BCBalancedMultilineLabel-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -221,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				34A4363219ABF48100DBB956 /* BCBalancedMultilineLabelTests.m */,
+				34C4C6B11B799C6D0051FD0A /* BCBalancedMultilineLabelSnapshotTests.m */,
 				34A4363A19ABF7BE00DBB956 /* Reference Images */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
@@ -471,6 +474,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34A4363319ABF48100DBB956 /* BCBalancedMultilineLabelTests.m in Sources */,
+				34C4C6B21B799C6D0051FD0A /* BCBalancedMultilineLabelSnapshotTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
