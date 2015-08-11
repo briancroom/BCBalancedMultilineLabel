@@ -1,3 +1,6 @@
+# 0.2.2
+Minor adjustments to the project structure
+
 # 0.2.1
 Minor improvements to documentation and tests
 
