@@ -1,3 +1,6 @@
+# 0.3.0
+Add tvOS support and updates for Xcode 7.1 + iOS 9
+
 # 0.2.2
 Minor adjustments to the project structure
 

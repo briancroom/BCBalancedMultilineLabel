@@ -1,6 +1,6 @@
 PODS:
-  - BCBalancedMultilineLabel (0.2.2)
-  - FBSnapshotTestCase/Core (2.0.3)
+  - BCBalancedMultilineLabel (0.3.0)
+  - FBSnapshotTestCase/Core (2.0.7)
 
 DEPENDENCIES:
   - BCBalancedMultilineLabel (from `../`)
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  BCBalancedMultilineLabel: a949846a540e5c9e43d0fb885398e35845b83cda
-  FBSnapshotTestCase: d0eeca6bf87958e088b254396ae66873f971cfb1
+  BCBalancedMultilineLabel: c1969051fbc17131023a784cbf7007b18775e53d
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0
