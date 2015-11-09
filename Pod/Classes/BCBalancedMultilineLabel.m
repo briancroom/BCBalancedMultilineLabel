@@ -21,6 +21,17 @@ static const CGFloat BCBalancedMultilineLabelIdealWidthSearchThreshold = 16;
     }
 }
 
+- (CGSize)intrinsicContentSize {
+    /*
+     This prevents the label from inconsistenly shrinking its width depending on
+     the precise location of line breaks that occur in its text when measured
+     based on the preferredMaxLayoutWidth.
+     */
+    CGSize size = [super intrinsicContentSize];
+    size.width = self.preferredMaxLayoutWidth;
+    return size;
+}
+
 - (void)drawTextInRect:(CGRect)rect {
     rect = [self idealTextRectForProposedTextRect:rect];
     [super drawTextInRect:rect];
