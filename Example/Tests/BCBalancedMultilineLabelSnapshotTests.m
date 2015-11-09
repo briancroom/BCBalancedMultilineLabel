@@ -27,7 +27,7 @@
 
 - (void)testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithRightAlignment {
     self.label.textAlignment = NSTextAlignmentRight;
-    FBSnapshotVerifyViewWithOptions(self.label, nil, @[@""], .001);
+    FBSnapshotVerifyViewWithOptions(self.label, nil, @[@""], .015);
 }
 
 - (void)testDoesNotModifySingleLineRendering {

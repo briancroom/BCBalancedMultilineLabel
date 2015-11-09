@@ -32,13 +32,13 @@ static const CGFloat kLabelWidth = 300;
 
 - (void)testCalculatesIntrinsicContentHeightForMultipleLinesAccordingToWidth {
     XCTAssertLessThanOrEqual(self.label.intrinsicContentSize.width, kLabelWidth);
-    XCTAssertEqual(self.label.intrinsicContentSize.height, 40);
+    XCTAssertEqualWithAccuracy(self.label.intrinsicContentSize.height, 40, 0.4);
 
     CGFloat newWidth = 100;
     self.label.bounds = CGRectMake(0, 0, newWidth, 20);
     [self.label layoutIfNeeded];
     XCTAssertLessThanOrEqual(self.label.intrinsicContentSize.width, newWidth);
-    XCTAssertEqual(self.label.intrinsicContentSize.height, 79.5);
+    XCTAssertEqualWithAccuracy(self.label.intrinsicContentSize.height, 79.5, 0.4);
 }
 
 @end
