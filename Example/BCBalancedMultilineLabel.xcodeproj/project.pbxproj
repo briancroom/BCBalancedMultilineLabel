@@ -12,6 +12,8 @@
 		3442A6421B4A7038005958C5 /* BCBalancedMultilineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3442A6401B4A7038005958C5 /* BCBalancedMultilineLabel.m */; };
 		34A4363319ABF48100DBB956 /* BCBalancedMultilineLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4363219ABF48100DBB956 /* BCBalancedMultilineLabelTests.m */; };
 		34A4363619ABF4DA00DBB956 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A4363419ABF4DA00DBB956 /* Main.storyboard */; };
+		34AF9D5C1BF033F4005F00F4 /* BCBalancedMultilineLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3442A63F1B4A7037005958C5 /* BCBalancedMultilineLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34AF9D5D1BF033F9005F00F4 /* BCBalancedMultilineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3442A6401B4A7038005958C5 /* BCBalancedMultilineLabel.m */; };
 		34C4C6B21B799C6D0051FD0A /* BCBalancedMultilineLabelSnapshotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C4C6B11B799C6D0051FD0A /* BCBalancedMultilineLabelSnapshotTests.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -40,7 +42,6 @@
 
 /* Begin PBXFileReference section */
 		07C3E148BBCD4280BE6CFCB6 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0997B3EE6B1EDD85C00C6AB0 /* Pods-BCBalancedMultilineLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCBalancedMultilineLabel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BCBalancedMultilineLabel/Pods-BCBalancedMultilineLabel.debug.xcconfig"; sourceTree = "<group>"; };
 		0FEF29D615A5A132E0071B92 /* Pods-BCBalancedMultilineLabel-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCBalancedMultilineLabel-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BCBalancedMultilineLabel-Example/Pods-BCBalancedMultilineLabel-Example.release.xcconfig"; sourceTree = "<group>"; };
 		195AF9302582901412A38B63 /* libPods-BCBalancedMultilineLabel-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BCBalancedMultilineLabel-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3442A6261B4A6F95005958C5 /* BCBalancedMultilineLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BCBalancedMultilineLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +53,9 @@
 		34A4363B19ABF7DA00DBB956 /* testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithCenterAlignment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithCenterAlignment@2x.png"; sourceTree = "<group>"; };
 		34A4363C19ABF7DA00DBB956 /* testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithLeftAlignment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithLeftAlignment@2x.png"; sourceTree = "<group>"; };
 		34A4363D19ABF7DA00DBB956 /* testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithRightAlignment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithRightAlignment@2x.png"; sourceTree = "<group>"; };
+		34AF9D521BF030DA005F00F4 /* BCBalancedMultilineLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BCBalancedMultilineLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34AF9D5A1BF033E4005F00F4 /* testAppropriatelyHandlesExplicitNewlines@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "testAppropriatelyHandlesExplicitNewlines@2x.png"; sourceTree = "<group>"; };
+		34AF9D5B1BF033E4005F00F4 /* testDoesNotModifySingleLineRendering@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "testDoesNotModifySingleLineRendering@2x.png"; sourceTree = "<group>"; };
 		34C4C6B11B799C6D0051FD0A /* BCBalancedMultilineLabelSnapshotTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCBalancedMultilineLabelSnapshotTests.m; sourceTree = "<group>"; };
 		4182A5BA613404EC0D60B1AD /* Pods-BCBalancedMultilineLabel-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCBalancedMultilineLabel-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BCBalancedMultilineLabel-Example/Pods-BCBalancedMultilineLabel-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4619ACD17F07550D6CE1785E /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,18 +81,10 @@
 		A2F0C01628751F5C8FB44B13 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D4250399AB58405CB6FB9CEF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E0FAFA54DA1844C8A8ACC723 /* libPods-BCBalancedMultilineLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BCBalancedMultilineLabel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E73B97D5A9B6E5D4CCB59766 /* Pods-BCBalancedMultilineLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCBalancedMultilineLabel.release.xcconfig"; path = "Pods/Target Support Files/Pods-BCBalancedMultilineLabel/Pods-BCBalancedMultilineLabel.release.xcconfig"; sourceTree = "<group>"; };
 		FAFFF8FD48B1430DA8F9E4F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3442A6221B4A6F95005958C5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6003F587195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -117,8 +113,6 @@
 		0D5E633EF5B91E639679E61B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0997B3EE6B1EDD85C00C6AB0 /* Pods-BCBalancedMultilineLabel.debug.xcconfig */,
-				E73B97D5A9B6E5D4CCB59766 /* Pods-BCBalancedMultilineLabel.release.xcconfig */,
 				4619ACD17F07550D6CE1785E /* Pods-Tests.debug.xcconfig */,
 				A2F0C01628751F5C8FB44B13 /* Pods-Tests.release.xcconfig */,
 				4182A5BA613404EC0D60B1AD /* Pods-BCBalancedMultilineLabel-Example.debug.xcconfig */,
@@ -170,9 +164,11 @@
 				34A4363B19ABF7DA00DBB956 /* testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithCenterAlignment@2x.png */,
 				34A4363C19ABF7DA00DBB956 /* testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithLeftAlignment@2x.png */,
 				34A4363D19ABF7DA00DBB956 /* testAdjustsWordWrappingSoLineLengthsAreAsEvenAsPossibleWithRightAlignment@2x.png */,
+				34AF9D5A1BF033E4005F00F4 /* testAppropriatelyHandlesExplicitNewlines@2x.png */,
+				34AF9D5B1BF033E4005F00F4 /* testDoesNotModifySingleLineRendering@2x.png */,
 			);
 			name = "Reference Images";
-			path = ReferenceImages/BCBalancedMultilineLabelTests;
+			path = ReferenceImages/BCBalancedMultilineLabelSnapshotTests;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -194,6 +190,7 @@
 				6003F58A195388D20070C39A /* BCBalancedMultilineLabel-Example.app */,
 				6003F5AE195388D20070C39A /* Tests.xctest */,
 				3442A6261B4A6F95005958C5 /* BCBalancedMultilineLabel.framework */,
+				34AF9D521BF030DA005F00F4 /* BCBalancedMultilineLabel.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -261,25 +258,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		34AF9D4F1BF030DA005F00F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34AF9D5C1BF033F4005F00F4 /* BCBalancedMultilineLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3442A6251B4A6F95005958C5 /* BCBalancedMultilineLabel */ = {
+		3442A6251B4A6F95005958C5 /* BCBalancedMultilineLabel-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3442A6391B4A6F96005958C5 /* Build configuration list for PBXNativeTarget "BCBalancedMultilineLabel" */;
+			buildConfigurationList = 3442A6391B4A6F96005958C5 /* Build configuration list for PBXNativeTarget "BCBalancedMultilineLabel-iOS" */;
 			buildPhases = (
 				3442A6211B4A6F95005958C5 /* Sources */,
-				3442A6221B4A6F95005958C5 /* Frameworks */,
 				3442A6231B4A6F95005958C5 /* Headers */,
-				3442A6241B4A6F95005958C5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BCBalancedMultilineLabel;
+			name = "BCBalancedMultilineLabel-iOS";
 			productName = BCBalancedMultilineLabel;
 			productReference = 3442A6261B4A6F95005958C5 /* BCBalancedMultilineLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		34AF9D511BF030DA005F00F4 /* BCBalancedMultilineLabel-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34AF9D571BF030DA005F00F4 /* Build configuration list for PBXNativeTarget "BCBalancedMultilineLabel-tvOS" */;
+			buildPhases = (
+				34AF9D4D1BF030DA005F00F4 /* Sources */,
+				34AF9D4F1BF030DA005F00F4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BCBalancedMultilineLabel-tvOS";
+			productName = "BCBalancedMultilineLabel-tvOS";
+			productReference = 34AF9D521BF030DA005F00F4 /* BCBalancedMultilineLabel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6003F589195388D20070C39A /* BCBalancedMultilineLabel-Example */ = {
@@ -328,11 +347,14 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = BC;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Brian Croom";
 				TargetAttributes = {
 					3442A6251B4A6F95005958C5 = {
 						CreatedOnToolsVersion = 6.3.1;
+					};
+					34AF9D511BF030DA005F00F4 = {
+						CreatedOnToolsVersion = 7.1;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -354,19 +376,13 @@
 			targets = (
 				6003F589195388D20070C39A /* BCBalancedMultilineLabel-Example */,
 				6003F5AD195388D20070C39A /* Tests */,
-				3442A6251B4A6F95005958C5 /* BCBalancedMultilineLabel */,
+				3442A6251B4A6F95005958C5 /* BCBalancedMultilineLabel-iOS */,
+				34AF9D511BF030DA005F00F4 /* BCBalancedMultilineLabel-tvOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3442A6241B4A6F95005958C5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6003F588195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -459,6 +475,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		34AF9D4D1BF030DA005F00F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34AF9D5D1BF033F9005F00F4 /* BCBalancedMultilineLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -521,23 +545,20 @@
 			buildSettings = {
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
 				INFOPLIST_FILE = BCBalancedMultilineLabel/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.briancroom.BCBalancedMultilineLabel;
+				PRODUCT_NAME = BCBalancedMultilineLabel;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -561,9 +582,63 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.briancroom.BCBalancedMultilineLabel;
+				PRODUCT_NAME = BCBalancedMultilineLabel;
 				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34AF9D581BF030DA005F00F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = BCBalancedMultilineLabel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.briancroom.BCBalancedMultilineLabel;
+				PRODUCT_NAME = BCBalancedMultilineLabel;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34AF9D591BF030DA005F00F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = BCBalancedMultilineLabel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.briancroom.BCBalancedMultilineLabel;
+				PRODUCT_NAME = BCBalancedMultilineLabel;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -587,6 +662,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -650,6 +726,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BCBalancedMultilineLabel/BCBalancedMultilineLabel-Prefix.pch";
 				INFOPLIST_FILE = "BCBalancedMultilineLabel/BCBalancedMultilineLabel-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -664,6 +741,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BCBalancedMultilineLabel/BCBalancedMultilineLabel-Prefix.pch";
 				INFOPLIST_FILE = "BCBalancedMultilineLabel/BCBalancedMultilineLabel-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -682,6 +760,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -701,6 +780,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -710,7 +790,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3442A6391B4A6F96005958C5 /* Build configuration list for PBXNativeTarget "BCBalancedMultilineLabel" */ = {
+		3442A6391B4A6F96005958C5 /* Build configuration list for PBXNativeTarget "BCBalancedMultilineLabel-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3442A63A1B4A6F96005958C5 /* Debug */,
@@ -718,6 +798,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		34AF9D571BF030DA005F00F4 /* Build configuration list for PBXNativeTarget "BCBalancedMultilineLabel-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34AF9D581BF030DA005F00F4 /* Debug */,
+				34AF9D591BF030DA005F00F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "BCBalancedMultilineLabel" */ = {
 			isa = XCConfigurationList;

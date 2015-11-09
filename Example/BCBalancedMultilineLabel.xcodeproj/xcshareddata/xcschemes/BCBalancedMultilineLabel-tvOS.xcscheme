@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "BCBalancedMultilineLabel-Example.app"
-               BlueprintName = "BCBalancedMultilineLabel-Example"
+               BlueprintIdentifier = "34AF9D511BF030DA005F00F4"
+               BuildableName = "BCBalancedMultilineLabel.framework"
+               BlueprintName = "BCBalancedMultilineLabel-tvOS"
                ReferencedContainer = "container:BCBalancedMultilineLabel.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -26,35 +26,9 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "NO">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "Tests.xctest"
-               BlueprintName = "Tests"
-               ReferencedContainer = "container:BCBalancedMultilineLabel.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "BCBalancedMultilineLabel-Example.app"
-            BlueprintName = "BCBalancedMultilineLabel-Example"
-            ReferencedContainer = "container:BCBalancedMultilineLabel.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "FB_REFERENCE_IMAGE_DIR"
-            value = "$(SOURCE_ROOT)/Tests/ReferenceImages"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -68,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "BCBalancedMultilineLabel-Example.app"
-            BlueprintName = "BCBalancedMultilineLabel-Example"
+            BlueprintIdentifier = "34AF9D511BF030DA005F00F4"
+            BuildableName = "BCBalancedMultilineLabel.framework"
+            BlueprintName = "BCBalancedMultilineLabel-tvOS"
             ReferencedContainer = "container:BCBalancedMultilineLabel.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -87,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "BCBalancedMultilineLabel-Example.app"
-            BlueprintName = "BCBalancedMultilineLabel-Example"
+            BlueprintIdentifier = "34AF9D511BF030DA005F00F4"
+            BuildableName = "BCBalancedMultilineLabel.framework"
+            BlueprintName = "BCBalancedMultilineLabel-tvOS"
             ReferencedContainer = "container:BCBalancedMultilineLabel.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
