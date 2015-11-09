@@ -18,13 +18,15 @@ Pod::Spec.new do |s|
                        that each line is as close to the same length as possible, making your text look beautiful.
                        DESC
   s.homepage         = "https://github.com/briancroom/BCBalancedMultilineLabel"
-  s.screenshots     = "https://github.com/briancroom/BCBalancedMultilineLabel/raw/master/Screenshots/Example-App.png"
+  s.screenshots      = "https://github.com/briancroom/BCBalancedMultilineLabel/raw/master/Screenshots/Example-App.png"
   s.license          = 'MIT'
   s.author           = { "Brian Croom" => "brian.s.croom@gmail.com" }
   s.social_media_url = 'https://twitter.com/aikoniv'
   s.source           = { :git => "https://github.com/briancroom/BCBalancedMultilineLabel.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '6.0'
+  s.ios.deployment_target  = '6.0'
+  s.tvos.deployment_target = '9.0'
+
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
